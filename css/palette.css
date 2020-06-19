@@ -31,3 +31,8 @@
 .icon-color { 
 	color: #000000; 
 }
+
+.gradient {
+	background: rgb(64,75,105);
+	background: linear-gradient(90deg, rgba(64,75,105,1) 0%, rgba(40,49,73,1) 35%);
+}
