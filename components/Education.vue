@@ -1,26 +1,28 @@
 <template>
-  <div class="container">
+  <div class="education py-3">
     <h2>Educación</h2>
-    <b-row>
-      <b-col v-for="(titulo, index) in titulos" :key="index" cols="12" sm="6" class="my-2">
-        <b-card no-body class="overflow-hidden">
-          <b-row no-gutters>
-            <b-col md="6">
-              <b-card-img-lazy :src="titulo.imagen" :alt="titulo.nombre" class="rounded-0"></b-card-img-lazy>
-            </b-col>
-            <b-col md="6">
-              <b-card-body :title="titulo.nombre">
-                <b-card-text>
-                  {{titulo.institucion}}
-                  <br />
-                  {{titulo.fechas}}
-                </b-card-text>
-              </b-card-body>
-            </b-col>
-          </b-row>
-        </b-card>
-      </b-col>
-    </b-row>
+    <div class="container">
+      <b-row>
+        <b-col v-for="(titulo, index) in titulos" :key="index" sm="12" md="6" class="my-2">
+          <b-card no-body class="overflow-hidden">
+            <b-row no-gutters>
+              <b-col md="6">
+                <b-card-img-lazy :src="titulo.imagen" :alt="titulo.nombre" class="rounded-0"></b-card-img-lazy>
+              </b-col>
+              <b-col md="6">
+                <b-card-body :title="titulo.nombre">
+                  <b-card-text>
+                    {{titulo.institucion}}
+                    <br />
+                    {{titulo.fechas}}
+                  </b-card-text>
+                </b-card-body>
+              </b-col>
+            </b-row>
+          </b-card>
+        </b-col>
+      </b-row>
+    </div>
   </div>
 </template>
 
@@ -56,4 +58,10 @@ export default {
 </script>
 
 <style>
+.education {
+  background-color: rgb(245, 245, 245);
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
 </style>
