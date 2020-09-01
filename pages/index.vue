@@ -1,15 +1,27 @@
 <template>
-  <div class="container">
-    <Banner />
+  <div>
+    <Banner class="my-4" />
+    <Education />
+    <Experience />
+    <Skills />
+    <Contact />
   </div>
 </template>
 
 <script>
 import Banner from "@/components/Banner";
+import Education from "@/components/Education";
+import Experience from "@/components/Experience";
+import Skills from "@/components/Skills";
+import Contact from "@/components/Contact";
 
 export default {
   components: {
     Banner,
+    Education,
+    Experience,
+    Skills,
+    Contact,
   },
 };
 </script>
