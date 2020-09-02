@@ -1,13 +1,13 @@
 <template>
   <div class="skills py-3">
-    <h2>Habilidades</h2>
-    <div class="container mt-4">
+    <h2 class="py-4">Habilidades</h2>
+    <div class="container my-4">
       <b-row>
-        <b-col v-for="(habilidad, index) in habilidades" :key="index" sm="12" md="6" class="my-2">
+        <b-col v-for="(habilidad, index) in habilidades" :key="index" sm="12" md="6" class="my-2 py-3">
           <b-row>
-            <b-col cols="2">{{habilidad.nombre}}</b-col>
-            <b-col cols="10">
-              <b-progress :value="habilidad.porcentaje" :max="max" animated class="mt-1"></b-progress>
+            <b-col cols="12" sm="3">{{habilidad.nombre}}</b-col>
+            <b-col cols="12" sm="9">
+              <b-progress :value="habilidad.porcentaje" :max="max" animated variant="danger" class="mt-1"></b-progress>
             </b-col>
           </b-row>
         </b-col>
@@ -24,27 +24,27 @@ export default {
       habilidades: [
         {
           nombre: "Java",
-          porcentaje: 10,
+          porcentaje: 75,
         },
         {
           nombre: "JavaScript",
-          porcentaje: 10,
+          porcentaje: 60,
         },
         {
           nombre: "C/C++",
-          porcentaje: 10,
+          porcentaje: 60,
         },
         {
           nombre: "Node.js",
-          porcentaje: 10,
+          porcentaje: 40,
         },
         {
           nombre: "Vue",
-          porcentaje: 10,
+          porcentaje: 70,
         },
         {
           nombre: "Git",
-          porcentaje: 10,
+          porcentaje: 60,
         },
       ],
     };

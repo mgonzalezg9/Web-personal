@@ -1,9 +1,9 @@
 <template>
   <div class="experience py-3">
-    <h2>Experiencia</h2>
+    <h2 class="py-4">Experiencia</h2>
     <div class="container">
       <b-row>
-        <b-col v-for="(titulo, index) in titulos" :key="index" sm="12" md="6" class="my-2">
+        <b-col v-for="(titulo, index) in titulos" :key="index" sm="12" md="6" class="py-4">
           <b-card no-body class="overflow-hidden">
             <b-row no-gutters>
               <b-col md="6">

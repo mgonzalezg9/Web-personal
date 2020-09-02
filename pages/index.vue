@@ -1,10 +1,13 @@
 <template>
-  <div>
-    <Banner class="my-4" />
-    <Education />
-    <Experience />
-    <Skills />
-    <Contact />
+  <div class="index">
+    <Banner id="about" class="my-4 py-5" />
+    <Education id="education" class="my-0 py-0" />
+    <hr />
+    <Experience id="experience" class="my-0 py-0" />
+    <hr />
+    <Skills id="skills" class="my-0" />
+    <hr />
+    <Contact id="contact" class="my-0 py-0" />
   </div>
 </template>
 
@@ -27,6 +30,10 @@ export default {
 </script>
 
 <style>
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 /* .container {
   margin: 0 auto;
   min-height: 100vh;

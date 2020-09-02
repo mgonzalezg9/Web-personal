@@ -1,13 +1,21 @@
 <template>
-  <div class="banner py-5">
+  <div class="banner gradient">
     <b-container>
       <b-row class="text-center">
+        <b-col sm="12" md="6">
+          <b-img rounded="circle" height="325" src="@/assets/images/perfil.jpeg"></b-img>
+        </b-col>
         <b-col sm="12" md="6">
           <b-row>
             <b-col cols="12" class="my-2">
               <h1>{{perfil.nombre}}</h1>
             </b-col>
-            <b-col cols="12" class="my-2">{{perfil.descripcion}}</b-col>
+            <b-col cols="12" class="my-2">
+              <h3 style="font-style: italic">{{perfil.rol}}</h3>
+            </b-col>
+            <b-col cols="12" class="my-2">
+              <h5>{{perfil.descripcion}}</h5>
+            </b-col>
             <b-col cols="12" class="text-center mt-3">
               <a href="https://www.linkedin.com/in/mgonzalezg9/" class="mx-2">
                 <b-img height="40" src="@/assets/images/linkedin.png" />
@@ -21,9 +29,6 @@
             </b-col>
           </b-row>
         </b-col>
-        <b-col sm="12" md="6">
-          <b-img rounded="circle" height="275" src="@/assets/images/perfil.jpeg"></b-img>
-        </b-col>
       </b-row>
     </b-container>
   </div>
@@ -35,6 +40,7 @@ export default {
     return {
       perfil: {
         nombre: "Manuel González García",
+        rol: "Desarrollador web Full Stack",
         descripcion:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
         redes: [
@@ -59,7 +65,6 @@ export default {
 
 <style>
 .banner {
-  background-color: aquamarine;
   left: 0;
   bottom: 0;
   text-align: center;

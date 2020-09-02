@@ -2,7 +2,7 @@
   <div>
     <Navbar />
     <Nuxt />
-    <!-- <Footer /> -->
+    <Footer />
   </div>
 </template>
 
@@ -19,6 +19,9 @@ export default {
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
 /* html {
   font-family:
     'Source Sans Pro',

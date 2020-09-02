@@ -1,7 +1,7 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="primary" class="py-3">
-      <b-navbar-brand href="#">
+    <b-navbar toggleable="lg" type="dark" class="first-color py-3">
+      <b-navbar-brand to="#" class="d-none d-md-block">
         <img src="@/assets/images/logo.png" class="mx-3" height="50" />
         Manuel González García
       </b-navbar-brand>
@@ -11,9 +11,9 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
           <b-navbar-nav right>
-            <b-nav-item v-for="(link, index) in links" :key="index" :href="link.url">{{link.nombre}}</b-nav-item>
+            <b-nav-item v-for="(link, index) in links" :key="index" :to="link.url">{{link.nombre}}</b-nav-item>
           </b-navbar-nav>
-          <b-nav-item-dropdown text="Idioma" right>
+          <b-nav-item-dropdown disabled="true" text="Idioma" right>
             <b-dropdown-item
               v-for="(idioma, index) in idiomas"
               :key="index"
