@@ -1,11 +1,16 @@
 <template>
   <div class="contact">
     <h2 class="py-4">Contacto</h2>
-    <b-button href="mailto:mgonzalez4648@gmail.com" variant="outline-primary">SALUDAR</b-button>
+    <b-button
+      href="mailto:mgonzalez4648@gmail.com"
+      variant="outline-primary"
+      data-aos="zoom-in"
+      data-aos-offset="100"
+    >SALUDAR</b-button>
     <br class="my-3" />
-    <div class="mb-5 pb-4">
+    <div class="mb-5 pb-4" data-aos="fade-in-up" data-aos-offset="200">
       ¿Quiere saber más sobre mí? Lea mi
-      <a href="/cv-es.jpeg">CV</a>.
+      <a href="/cv-es.jpg">CV</a>.
     </div>
   </div>
 </template>
@@ -27,6 +32,5 @@ export default {
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: rgb(250, 250, 250);
 }
 </style>

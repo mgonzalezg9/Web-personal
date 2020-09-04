@@ -2,10 +2,10 @@
   <div class="banner gradient">
     <b-container>
       <b-row class="text-center">
-        <b-col sm="12" md="6">
+        <b-col sm="12" md="6" data-aos="zoom-in-up">
           <b-img rounded="circle" height="325" src="@/assets/images/perfil.jpeg"></b-img>
         </b-col>
-        <b-col sm="12" md="6">
+        <b-col sm="12" md="6" data-aos="flip-up">
           <b-row>
             <b-col cols="12" class="my-2">
               <h1>{{perfil.nombre}}</h1>

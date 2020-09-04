@@ -3,7 +3,15 @@
     <h2 class="py-4">Experiencia</h2>
     <div class="container">
       <b-row>
-        <b-col v-for="(titulo, index) in titulos" :key="index" sm="12" md="6" class="py-4">
+        <b-col
+          v-for="(titulo, index) in titulos"
+          :key="index"
+          sm="12"
+          md="6"
+          class="py-4"
+          data-aos="fade-left"
+          data-aos-offset="200"
+        >
           <b-card no-body class="overflow-hidden">
             <b-row no-gutters>
               <b-col md="6">
@@ -51,7 +59,6 @@ export default {
 
 <style>
 .experience {
-  background-color: rgb(250, 250, 250);
   text-align: center;
 }
 </style>

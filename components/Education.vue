@@ -3,7 +3,15 @@
     <h2 class="py-4">Educación</h2>
     <div class="container">
       <b-row>
-        <b-col v-for="(titulo, index) in titulos" :key="index" sm="12" md="6" class="my-4">
+        <b-col
+          v-for="(titulo, index) in titulos"
+          :key="index"
+          sm="12"
+          md="6"
+          class="my-4"
+          data-aos="fade-right"
+          data-aos-offset="200"
+        >
           <b-card no-body class="overflow-hidden">
             <b-row no-gutters>
               <b-col md="6">
@@ -59,7 +67,6 @@ export default {
 
 <style>
 .education {
-  background-color: rgb(245, 245, 245);
   left: 0;
   bottom: 0;
   text-align: center;
