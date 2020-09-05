@@ -9,11 +9,23 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
     "aos": "^2.3.4",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "nuxt": "^2.14.0",
     "nuxt-fontawesome": "^0.4.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "compass": "^0.1.1",
+    "compass-mixins": "^0.12.10",
+    "node-sass": "^4.14.1",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^10.0.2",
+    "susy": "^3.0.6"
+  }
 }

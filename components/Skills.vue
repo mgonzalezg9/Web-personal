@@ -11,8 +11,10 @@
           class="my-2 py-3"
         >
           <b-row data-aos="fade-left" data-aos-offset="200">
-            <b-col cols="12" sm="3">{{habilidad.nombre}}</b-col>
-            <b-col cols="12" sm="9">
+            <b-col cols="12" sm="3">
+              <font-awesome-icon :icon="habilidad.icono" :style="iconProps" />
+            </b-col>
+            <b-col cols="12" sm="9" class="my-auto">
               <b-progress
                 :value="habilidad.porcentaje"
                 :max="max"
@@ -36,29 +38,39 @@ export default {
       habilidades: [
         {
           nombre: "Java",
+          icono: ["fab", "java"],
           porcentaje: 75,
         },
         {
           nombre: "JavaScript",
+          icono: ["fab", "js-square"],
           porcentaje: 60,
         },
         {
           nombre: "C/C++",
+          icono: ["fab", "cuttlefish"],
           porcentaje: 60,
         },
         {
           nombre: "Node.js",
+          icono: ["fab", "node"],
           porcentaje: 40,
         },
         {
           nombre: "Vue",
+          icono: ["fab", "vuejs"],
           porcentaje: 70,
         },
         {
           nombre: "Git",
+          icono: ["fab", "git"],
           porcentaje: 60,
         },
       ],
+      iconProps: {
+        fontSize: "40px",
+        color: "#283149",
+      },
     };
   },
 };

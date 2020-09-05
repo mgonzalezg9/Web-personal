@@ -49,8 +49,26 @@ export default {
    */
   modules: [
     // Doc: https://bootstrap-vue.js.org
-    "bootstrap-vue/nuxt"
+    "bootstrap-vue/nuxt",
+    [
+      "nuxt-fontawesome",
+      {
+        imports: [
+          {
+            set: "@fortawesome/free-solid-svg-icons",
+            icons: ["fas"]
+          },
+          {
+            set: "@fortawesome/free-brands-svg-icons",
+            icons: ["fab"]
+          }
+        ]
+      }
+    ]
   ],
+  // styleResources: {
+  //   scss: ["assets/css/banner.sass"]
+  // },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/

@@ -13,7 +13,7 @@
           <b-navbar-nav right>
             <b-nav-item v-for="(link, index) in links" :key="index" :to="link.url">{{link.nombre}}</b-nav-item>
           </b-navbar-nav>
-          <b-nav-item-dropdown disabled="true" text="Idioma" right>
+          <b-nav-item-dropdown :disabled="true" text="Idioma" right>
             <b-dropdown-item
               v-for="(idioma, index) in idiomas"
               :key="index"

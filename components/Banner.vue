@@ -11,20 +11,26 @@
               <h1>{{perfil.nombre}}</h1>
             </b-col>
             <b-col cols="12" class="my-2">
-              <h3 style="font-style: italic">{{perfil.rol}}</h3>
+              <h3>{{perfil.rol}}</h3>
             </b-col>
             <b-col cols="12" class="my-2">
               <h5>{{perfil.descripcion}}</h5>
             </b-col>
             <b-col cols="12" class="text-center mt-3">
               <a href="https://www.linkedin.com/in/mgonzalezg9/" class="mx-2">
-                <b-img height="40" src="@/assets/images/linkedin.png" />
+                <font-awesome-icon :icon="['fab', 'linkedin']" :style="iconProps" />
+                <!-- <b-img height="40" src="@/assets/images/linkedin.png" /> -->
               </a>
               <a href="https://twitter.com/mgonzalezg9" class="mx-2">
-                <b-img rounded height="40" src="@/assets/images/twitter.png" />
+                <font-awesome-icon
+                  :icon="['fab', 'twitter']"
+                  :style="iconProps"
+                />
+                <!-- <b-img rounded height="40" src="@/assets/images/twitter.png" /> -->
               </a>
               <a href="https://github.com/mrblacknuel" class="mx-2">
-                <b-img height="40" src="@/assets/images/github.png" />
+                <font-awesome-icon :icon="['fab', 'github']" :style="iconProps" />
+                <!-- <b-img height="40" src="@/assets/images/github.png" /> -->
               </a>
             </b-col>
           </b-row>
@@ -58,12 +64,16 @@ export default {
           },
         ],
       },
+      iconProps: {
+        color: "white",
+        fontSize: "40px",
+      },
     };
   },
 };
 </script>
 
-<style>
+<style lang="css">
 .banner {
   left: 0;
   bottom: 0;

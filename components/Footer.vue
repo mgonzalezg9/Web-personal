@@ -4,7 +4,10 @@
       <div class="mb-0">{{creditos}}</div>
       <div class="footer-copyright text-center py-0 small">
         Código fuente disponible en
-        <a :href="fuente">Github</a>
+        <a :href="fuente">
+          Github
+          <font-awesome-icon :icon="['fab', 'github']" style="fontSize: '15px'" />
+        </a>
       </div>
     </footer>
   </div>
