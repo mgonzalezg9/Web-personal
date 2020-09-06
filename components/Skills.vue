@@ -42,29 +42,29 @@ export default {
           porcentaje: 75,
         },
         {
-          nombre: "JavaScript",
-          icono: ["fab", "js-square"],
-          porcentaje: 60,
-        },
-        {
-          nombre: "C/C++",
-          icono: ["fab", "cuttlefish"],
-          porcentaje: 60,
-        },
-        {
-          nombre: "Node.js",
-          icono: ["fab", "node"],
-          porcentaje: 40,
-        },
-        {
           nombre: "Vue",
           icono: ["fab", "vuejs"],
           porcentaje: 70,
         },
         {
+          nombre: "JavaScript",
+          icono: ["fab", "js-square"],
+          porcentaje: 60,
+        },
+        {
           nombre: "Git",
           icono: ["fab", "git"],
           porcentaje: 60,
+        },
+        {
+          nombre: "Node.js",
+          icono: ["fab", "node"],
+          porcentaje: 45,
+        },
+        {
+          nombre: "CSS3",
+          icono: ["fab", "css3-alt"],
+          porcentaje: 30,
         },
       ],
       iconProps: {

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <footer class="page-footer second-color font-small blue py-3">
+    <footer class="page-footer first-color font-small blue py-3">
       <div class="mb-0">{{creditos}}</div>
       <div class="footer-copyright text-center py-0 small">
         Código fuente disponible en

@@ -2,10 +2,10 @@
   <div class="banner gradient">
     <b-container>
       <b-row class="text-center">
-        <b-col sm="12" md="6" data-aos="zoom-in-up">
-          <b-img rounded="circle" height="325" src="@/assets/images/perfil.jpeg"></b-img>
+        <b-col md="12" lg="6" class="mx-0" data-aos="zoom-in-up">
+          <b-img fluid src="@/assets/images/retrato.png"></b-img>
         </b-col>
-        <b-col sm="12" md="6" data-aos="flip-up">
+        <b-col md="12" lg="6" class="my-auto" data-aos="flip-up">
           <b-row>
             <b-col cols="12" class="my-2">
               <h1>{{perfil.nombre}}</h1>
@@ -22,10 +22,7 @@
                 <!-- <b-img height="40" src="@/assets/images/linkedin.png" /> -->
               </a>
               <a href="https://twitter.com/mgonzalezg9" class="mx-2">
-                <font-awesome-icon
-                  :icon="['fab', 'twitter']"
-                  :style="iconProps"
-                />
+                <font-awesome-icon :icon="['fab', 'twitter']" :style="iconProps" />
                 <!-- <b-img rounded height="40" src="@/assets/images/twitter.png" /> -->
               </a>
               <a href="https://github.com/mrblacknuel" class="mx-2">

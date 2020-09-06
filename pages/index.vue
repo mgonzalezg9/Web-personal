@@ -1,6 +1,6 @@
 <template>
   <div class="index">
-    <Banner id="about" class="my-4 py-5" data-aos="fade-up" />
+    <Banner id="about" class="my-4 py-0" data-aos="fade-up" />
     <Education id="education" class="secondary-section my-0 py-0" data-aos="fade-up" />
     <hr />
     <Experience id="experience" class="primary-section my-0 py-0" data-aos="fade-up" />
