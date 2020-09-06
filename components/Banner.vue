@@ -43,9 +43,9 @@ export default {
     return {
       perfil: {
         nombre: "Manuel González García",
-        rol: "Desarrollador web Full Stack",
+        rol: "Desarrollador Full Stack",
         descripcion:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+          "Actualmente estoy en 4º curso de Ingeniería Informática en la Universidad de Murcia. Con experiencia desarrollando aplicaciones web empresariales enfocadas a dispositivos móviles.",
         redes: [
           {
             imagen: "@/assets/images/linkedin.png",
