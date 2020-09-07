@@ -8,13 +8,13 @@
         <b-col md="12" lg="6" class="my-auto" data-aos="flip-up">
           <b-row>
             <b-col cols="12" class="my-2">
-              <h1>{{perfil.nombre}}</h1>
+              <h1>{{$t("profile.name")}}</h1>
             </b-col>
             <b-col cols="12" class="my-2">
-              <h3>{{perfil.rol}}</h3>
+              <h3>{{$t("profile.role")}}</h3>
             </b-col>
             <b-col cols="12" class="my-2">
-              <h5>{{perfil.descripcion}}</h5>
+              <h5>{{$t("profile.description")}}</h5>
             </b-col>
             <b-col cols="12" class="text-center mt-3">
               <a href="https://www.linkedin.com/in/mgonzalezg9/" class="mx-2">
@@ -41,26 +41,20 @@
 export default {
   data() {
     return {
-      perfil: {
-        nombre: "Manuel González García",
-        rol: "Desarrollador Full Stack",
-        descripcion:
-          "Actualmente estoy en 4º curso de Ingeniería Informática en la Universidad de Murcia. Con experiencia desarrollando aplicaciones web empresariales enfocadas a dispositivos móviles.",
-        redes: [
-          {
-            imagen: "@/assets/images/linkedin.png",
-            link: "https://www.linkedin.com/in/mgonzalezg9/",
-          },
-          {
-            imagen: "@/assets/images/twitter.png",
-            link: "https://twitter.com/mgonzalezg9",
-          },
-          {
-            imagen: "@/assets/images/github.png",
-            link: "https://github.com/mrblacknuel",
-          },
-        ],
-      },
+      redes: [
+        {
+          imagen: "@/assets/images/linkedin.png",
+          link: "https://www.linkedin.com/in/mgonzalezg9/",
+        },
+        {
+          imagen: "@/assets/images/twitter.png",
+          link: "https://twitter.com/mgonzalezg9",
+        },
+        {
+          imagen: "@/assets/images/github.png",
+          link: "https://github.com/mrblacknuel",
+        },
+      ],
       iconProps: {
         color: "white",
         fontSize: "40px",

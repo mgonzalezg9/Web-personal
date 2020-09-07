@@ -1,13 +1,43 @@
 <template>
   <div class="index">
-    <Banner id="about" class="my-4 py-0" data-aos="fade-up" />
-    <Education id="education" class="secondary-section my-0 py-0" data-aos="fade-up" />
+    <Banner
+      id="about"
+      class="my-4 py-0"
+      data-aos="fade-up"
+      data-aos-anchor="#about"
+      data-aos-anchor-placement="#about"
+    />
+    <Education
+      id="education"
+      class="secondary-section my-0 py-0"
+      data-aos="fade-up"
+      data-aos-anchor="#education"
+      data-aos-anchor-placement="#education"
+    />
     <hr />
-    <Experience id="experience" class="primary-section my-0 py-0" data-aos="fade-up" />
+    <Experience
+      id="experience"
+      class="primary-section my-0 py-0"
+      data-aos="fade-up"
+      data-aos-anchor="#experience"
+      data-aos-anchor-placement="#experience"
+    />
     <hr />
-    <Skills id="skills" class="secondary-section my-0" data-aos="fade-up" />
+    <Skills
+      id="skills"
+      class="secondary-section my-0"
+      data-aos="fade-up"
+      data-aos-anchor="#skills"
+      data-aos-anchor-placement="#skills"
+    />
     <hr />
-    <Contact id="contact" class="primary-section my-0 py-0" data-aos="fade-up" />
+    <Contact
+      id="contact"
+      class="primary-section my-0 py-0"
+      data-aos="fade-up"
+      data-aos-anchor="#contact"
+      data-aos-anchor-placement="#contact"
+    />
   </div>
 </template>
 

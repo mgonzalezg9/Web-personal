@@ -1,6 +1,6 @@
 <template>
   <div class="skills py-3">
-    <h2 class="py-4">Habilidades</h2>
+    <h2 class="py-4">{{$t("sections.skills")}}</h2>
     <div class="container my-4">
       <b-row>
         <b-col

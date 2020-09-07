@@ -1,3 +1,5 @@
+import { I18N } from "./config";
+
 export default {
   /*
    ** Nuxt rendering mode
@@ -14,7 +16,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: "Manuel González García - Desarrollador Full Stack",
+    title: "Manuel González García - Full Stack Developer",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -34,7 +36,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [{ src: "@/plugins/aos", ssr: false }],
+  plugins: [{ src: "@/plugins/aos", ssr: false }, { src: "~/plugins/i18n" }],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -64,11 +66,9 @@ export default {
           }
         ]
       }
-    ]
+    ],
+    ["nuxt-i18n", I18N]
   ],
-  // styleResources: {
-  //   scss: ["assets/css/banner.sass"]
-  // },
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/

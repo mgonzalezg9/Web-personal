@@ -1,9 +1,9 @@
 <template>
   <div>
     <footer class="page-footer first-color font-small blue py-3">
-      <div class="mb-0">{{creditos}}</div>
+      <div class="mb-0">{{$t("footer.credits")}}</div>
       <div class="footer-copyright text-center py-0 small">
-        Código fuente disponible en
+        {{$t("footer.source")}}
         <a :href="fuente">
           Github
           <font-awesome-icon :icon="['fab', 'github']" style="fontSize: '15px'" />
@@ -17,7 +17,6 @@
 export default {
   data() {
     return {
-      creditos: "Diseñado y programado por Manuel González García",
       fuente: "https://github.com/mrblacknuel/Web-personal",
     };
   },
