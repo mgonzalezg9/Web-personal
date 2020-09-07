@@ -11,7 +11,7 @@ export default {
     name: "Manuel González García",
     role: "Full Stack Developer",
     description:
-      "Fourth-year student of Computer Science at University of Murcia. Experience working developing enterprise web apps focused in mobile devices."
+      "Currently studying Computer Science at University of Murcia. Experience working developing enterprise web apps focused in mobile devices."
   },
   education: {
     cs: {
@@ -38,7 +38,7 @@ export default {
     },
     displaynote: {
       title: "DisplayNote LTD",
-      subtitle: "Software testing specialist",
+      subtitle: "Software Testing Specialist",
       dates: "July - August 2019"
     }
   },
@@ -49,5 +49,10 @@ export default {
   footer: {
     credits: "Designed & programmed by Manuel González García",
     source: "Source code available at "
+  },
+  error: {
+    code: "404",
+    message: "The requested page does not exist",
+    back: "Go back"
   }
 };

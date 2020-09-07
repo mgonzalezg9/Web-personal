@@ -38,6 +38,7 @@
       data-aos-anchor="#contact"
       data-aos-anchor-placement="#contact"
     />
+    <Footer />
   </div>
 </template>
 
@@ -47,6 +48,7 @@ import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default {
   components: {
@@ -55,6 +57,7 @@ export default {
     Experience,
     Skills,
     Contact,
+    Footer,
   },
 };
 </script>

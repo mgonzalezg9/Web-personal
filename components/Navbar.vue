@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" class="first-color py-3">
-      <b-navbar-brand to="#" class="d-none d-md-block">
+      <b-navbar-brand to="/" class="d-none d-md-block">
         <img src="@/assets/images/logo.png" class="mx-3" height="50" />
         {{$t("profile.name")}}
       </b-navbar-brand>

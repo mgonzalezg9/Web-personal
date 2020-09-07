@@ -49,5 +49,10 @@ export default {
   footer: {
     credits: "Diseñado y programado por Manuel González García",
     source: "Código fuente disponible en "
+  },
+  error: {
+    code: "404",
+    message: "La página solicitada no existe",
+    back: "Atrás"
   }
 };

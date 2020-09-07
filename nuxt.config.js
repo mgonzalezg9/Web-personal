@@ -36,7 +36,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [{ src: "@/plugins/aos", ssr: false }, { src: "~/plugins/i18n" }],
+  plugins: [{ src: "@/plugins/aos", ssr: true }, { src: "~/plugins/i18n" }],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
