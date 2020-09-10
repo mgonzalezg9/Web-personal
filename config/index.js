@@ -15,6 +15,9 @@ export const I18N = {
     }
   ],
   defaultLocale: "es",
+  // SEO
+  seo: true,
+  baseUrl: "https://mgonzalezg9.com",
   // routes: {
   //   about: {
   //     en: "/about-us"

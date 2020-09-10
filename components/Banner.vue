@@ -16,18 +16,15 @@
             <b-col cols="12" class="my-2">
               <h5>{{$t("profile.description")}}</h5>
             </b-col>
-            <b-col cols="12" class="text-center mt-3">
+            <b-col cols="12" class="text-center my-3">
               <a href="https://www.linkedin.com/in/mgonzalezg9/" class="mx-2">
                 <font-awesome-icon :icon="['fab', 'linkedin']" :style="iconProps" />
-                <!-- <b-img height="40" src="@/assets/images/linkedin.png" /> -->
               </a>
               <a href="https://twitter.com/mgonzalezg9" class="mx-2">
                 <font-awesome-icon :icon="['fab', 'twitter']" :style="iconProps" />
-                <!-- <b-img rounded height="40" src="@/assets/images/twitter.png" /> -->
               </a>
               <a href="https://github.com/mrblacknuel" class="mx-2">
                 <font-awesome-icon :icon="['fab', 'github']" :style="iconProps" />
-                <!-- <b-img height="40" src="@/assets/images/github.png" /> -->
               </a>
             </b-col>
           </b-row>

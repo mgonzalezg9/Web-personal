@@ -1,4 +1,5 @@
 export default {
+  title: "Manuel González García - Desarrollador Full Stack",
   sections: {
     about: "Sobre mí",
     education: "Educación",
