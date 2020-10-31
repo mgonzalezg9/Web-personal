@@ -2,8 +2,13 @@
   <div>
     <b-navbar toggleable="lg" type="dark" class="first-color py-3">
       <b-navbar-brand to="/" class="d-none d-md-block">
-        <img src="@/assets/images/logo.png" class="mx-3" height="50" />
-        {{$t("profile.name")}}
+        <img
+          src="@/assets/images/logo.png"
+          :alt="`${$t('profile.name')} logo`"
+          class="mx-3"
+          height="50"
+        />
+        {{ $t("profile.name") }}
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -11,13 +16,21 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
           <b-navbar-nav right>
-            <b-nav-item v-for="(link, index) in links" :key="index" :to="link.url">{{$t(link.ref)}}</b-nav-item>
+            <b-nav-item
+              v-for="(link, index) in links"
+              :key="index"
+              :to="link.url"
+              >{{ $t(link.ref) }}</b-nav-item
+            >
             <nuxt-link
               v-for="idioma in idiomasDisponibles"
               :key="idioma.code"
               :to="switchLocalePath(idioma.code)"
             >
-              <country-flag :country="idioma.code === 'en' ? 'usa' : idioma.code" size="normal" />
+              <country-flag
+                :country="idioma.code === 'en' ? 'usa' : idioma.code"
+                size="normal"
+              />
             </nuxt-link>
           </b-navbar-nav>
           <!-- <b-nav-item-dropdown :text="$t('language')" right>
