@@ -22,7 +22,7 @@
     "vue-country-flag": "^2.0.1"
   },
   "devDependencies": {
-    "pug": "^3.0.0",
+    "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
     "susy": "^3.0.6"
   }
