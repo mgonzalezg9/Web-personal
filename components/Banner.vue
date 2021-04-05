@@ -33,7 +33,7 @@
                   :style="iconProps"
                 />
               </a>
-              <a href="https://github.com/mrblacknuel" class="mx-2">
+              <a href="https://github.com/mgonzalezg9" class="mx-2">
                 <font-awesome-icon
                   :icon="['fab', 'github']"
                   :style="iconProps"
@@ -54,23 +54,23 @@ export default {
       redes: [
         {
           imagen: "@/assets/images/linkedin.png",
-          link: "https://www.linkedin.com/in/mgonzalezg9/",
+          link: "https://www.linkedin.com/in/mgonzalezg9/"
         },
         {
           imagen: "@/assets/images/twitter.png",
-          link: "https://twitter.com/mgonzalezg9",
+          link: "https://twitter.com/mgonzalezg9"
         },
         {
           imagen: "@/assets/images/github.png",
-          link: "https://github.com/mrblacknuel",
-        },
+          link: "https://github.com/mgonzalezg9"
+        }
       ],
       iconProps: {
         color: "white",
-        fontSize: "40px",
-      },
+        fontSize: "40px"
+      }
     };
-  },
+  }
 };
 </script>
 
@@ -79,5 +79,9 @@ export default {
   left: 0;
   bottom: 0;
   text-align: center;
+}
+
+a:hover {
+  opacity: 80%;
 }
 </style>

@@ -1,12 +1,15 @@
 <template>
   <div>
     <footer class="page-footer first-color font-small blue py-3">
-      <div class="mb-0">{{$t("footer.credits")}}</div>
+      <div class="mb-0">{{ $t("footer.credits") }}</div>
       <div class="footer-copyright text-center py-0 small">
-        {{$t("footer.source")}}
+        {{ $t("footer.source") }}
         <a :href="fuente">
           Github
-          <font-awesome-icon :icon="['fab', 'github']" style="fontSize: '15px'" />
+          <font-awesome-icon
+            :icon="['fab', 'github']"
+            style="fontSize: '15px'"
+          />
         </a>
       </div>
     </footer>
@@ -17,9 +20,9 @@
 export default {
   data() {
     return {
-      fuente: "https://github.com/mrblacknuel/Web-personal",
+      fuente: "https://github.com/mgonzalezg9/Web-personal"
     };
-  },
+  }
 };
 </script>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="experience py-3">
-    <h2 class="py-4">{{$t("sections.experience")}}</h2>
+    <h2 class="py-4">{{ $t("sections.experience") }}</h2>
     <div class="container">
       <b-row>
         <b-col
@@ -24,9 +24,11 @@
               <b-col md="6" class="my-auto">
                 <b-card-body :title="$t(`${titulo.ref}.title`)">
                   <b-card-text>
-                    <div style="font-style: italic">{{$t(`${titulo.ref}.subtitle`)}}</div>
+                    <div style="font-style: italic">
+                      {{ $t(`${titulo.ref}.subtitle`) }}
+                    </div>
                     <br />
-                    {{$t(`${titulo.ref}.dates`)}}
+                    {{ $t(`${titulo.ref}.dates`) }}
                   </b-card-text>
                 </b-card-body>
               </b-col>
