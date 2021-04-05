@@ -21,19 +21,31 @@
               <h5>{{ $t("profile.description") }}</h5>
             </b-col>
             <b-col cols="12" class="text-center my-3">
-              <a href="https://www.linkedin.com/in/mgonzalezg9/" class="mx-2">
+              <a
+                href="https://www.linkedin.com/in/mgonzalezg9/"
+                class="mx-2"
+                target="_blank"
+              >
                 <font-awesome-icon
                   :icon="['fab', 'linkedin']"
                   :style="iconProps"
                 />
               </a>
-              <a href="https://twitter.com/mgonzalezg9" class="mx-2">
+              <a
+                href="https://twitter.com/mgonzalezg9"
+                class="mx-2"
+                target="_blank"
+              >
                 <font-awesome-icon
                   :icon="['fab', 'twitter']"
                   :style="iconProps"
                 />
               </a>
-              <a href="https://github.com/mgonzalezg9" class="mx-2">
+              <a
+                href="https://github.com/mgonzalezg9"
+                class="mx-2"
+                target="_blank"
+              >
                 <font-awesome-icon
                   :icon="['fab', 'github']"
                   :style="iconProps"
@@ -81,7 +93,7 @@ export default {
   text-align: center;
 }
 
-a:hover {
+/* a:hover {
   opacity: 80%;
-}
+} */
 </style>
